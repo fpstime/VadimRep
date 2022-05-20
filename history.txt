@@ -1,0 +1,19 @@
+   19  mkdir VadimRep
+   20  cd VadimRep
+   21  echo "Himework  - Hello World" >> text.txt
+   22  git init
+   23  git add text.txt
+   24  git commit -m "Add file from Terminal Windows"
+   25  git branch -M main
+   26  git remote add origin git@github.com:fpstime/VadimRep.git
+   27  git push -u origin main
+   28  echo history >> history.txt
+   29  history >> history.txt
+   30  git add history.txt
+   31  git commit -m "Add History commands"
+   32  git push -u origin main
+   33  git rm history.txt
+   34  git commit -m "deleting file history"
+   35  git push -u origin main
+   36  history
+   37  history | tail -19 >> history.txt
